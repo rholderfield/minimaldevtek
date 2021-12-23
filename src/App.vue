@@ -95,12 +95,12 @@ export default {
 </script>
 
 <style lang="scss">
+
 #app {
   font-family: PT Serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #282828;
 }
 
 img.selfie {
@@ -121,7 +121,7 @@ hgroup {
 }
 
 main {
-  padding-top: 16px;
+  padding-top: 28px;
 }
 
 div.showcase {
@@ -138,7 +138,7 @@ div.showcase {
   p {
     margin: 0px;
     padding-left: 24px;
-    text-align: start;
+    text-align: justify;
   }
 
   .buttonContainer {
