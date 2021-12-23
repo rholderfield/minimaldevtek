@@ -95,7 +95,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 #app {
   font-family: PT Serif, sans-serif;
   -webkit-font-smoothing: antialiased;
