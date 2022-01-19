@@ -1,6 +1,6 @@
 <template>
-  <!-- Hero -->
-  <div class="hero">
+  <!-- Header -->
+  <div class="hero" data-theme="light">
     <nav class="container-fluid">
       <ul>
         <li>
@@ -32,7 +32,9 @@
     </nav>
     <header class="container">
       <hgroup>
-        <img src="./assets/Meliodas_Demon_Mark_Anime.png" />
+        <img
+          src="./assets/QmfBR6W5VnU6XPLUCDz8hRuUsK23KCpwry9e67Xwb1fN3S.png"
+        />
       </hgroup>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqueet.</p>
       <p>
@@ -42,7 +44,7 @@
       </p>
     </header>
   </div>
-  <!-- ./ Hero -->
+  <!-- ./ Header -->
 
   <!-- Main -->
   <main class="container">
@@ -79,10 +81,55 @@
 
   <!-- Footer -->
   <footer class="container">
-    <small
-      >Built with <a href="https://picocss.com">Pico</a> •
-      <a href="https://vuejs.org/">Vue</a></small
-    >
+    <!--
+    { "basics": { "name": "Ryan Holderfield", "label": "Escalations Engineer",
+    "email": "raholderfield@gmail.com", "website":
+    "https://www.digitaldevtek.com", "summary": "Escalation Engineer with
+    interest in cloud computing", "location": { "countryCode": "US", "region":
+    "California" }, "profiles": [ { "network": "Linkedin", "username": "Ryan
+    Holderfield", "url": "https://www.linkedin.com/in/ryan-holderfield" }, {
+    "network": "Trailblazer", "username": "rholderfield", "url":
+    "https://trailblazer.me/id/rholderfield" } ] }, "work": [ { "company": "Sage
+    Intacct", "position": "Escalations Engineer", "website":
+    "https://www.sageintacct.com", "startDate": "2014-11-01", "endDate":
+    "Present", "summary": "Support bridge between internal support and product
+    management.", "highlights": [ { "highlight": "Expert for the Sage Intacct
+    Advanced CRM Integration with Salesforce - A Quote to Cash connector for the
+    back-end ERP." }, { "highlight": "Experience with troubleshooting web-based
+    technologies such as REST APIs, JavaScript, XML, JSON." }, { "highlight":
+    "Experience with the implementation of Single-Sign-On identity and service
+    providers using various platforms." } ] }, { "company": "Intuit",
+    "position": "Integration Support Engineer", "website":
+    "https://www.intuit.com/", "startDate": "2012-08-01", "endDate":
+    "2014-10-31", "summary": "Support bridge between the end customer and
+    engineering.", "highlights": [ { "highlight": "Support the Integration
+    Software Development Team for quality assurance in releases." }, {
+    "highlight": "Create, modify, and review XML code in management
+    integrations." }, { "highlight": "Investigating issues with customer data
+    using MS SQL, MySQL, and Access queries." } ] }, { "company": "US Army",
+    "position": "Self-Propelled Field Artillery Systems Mechanic", "website":
+    "https://www.army.mil/", "startDate": "2006-08-01", "endDate": "2011-02-13",
+    "summary": "Troubleshoot and performs unit maintenance on the family of
+    military vehicles and equipment." } ], "education": [ { "institution":
+    "Trailhead Military by Salesforce", "area": "Salesforce", "studyType":
+    "Ranger", "startDate": "2019-01-01", "endDate": "Present" }, {
+    "institution": "Western Governors University", "area": "Information
+    Technology - Security Emphasis", "studyType": "Bachelor of Science",
+    "startDate": "2013-01-01", "endDate": "2015-01-01" } ], "awards": [ {
+    "title": "Identity and Access Management Designer", "date": "2020-10-01",
+    "awarder": "Salesforce" }, { "title": "Platform Developer I", "date":
+    "2019-11-01", "awarder": "Salesforce" }, { "title": "Salesforce Certified
+    Administrator", "date": "2019-09-01", "awarder": "Salesforce" } ], "skills":
+    [ { "name": "Azure", "level": "Intermediate", "keywords": [ { "keyword":
+    "Azure Functions" }, { "keyword": "Azure Active Directory" }, { "keyword":
+    "Azure SQL" }, { "keyword": "Storage" } ] }, { "name": "JavaScript",
+    "level": "Intermediate", "keywords": [ { "keyword": "ECMAScript" }, {
+    "keyword": "ES6" } ] }, { "name": "Identity and Access Management", "level":
+    "Expert", "keywords": [ { "keyword": "OAUTH2" }, { "keyword": "SAML" }, {
+    "keyword": "OpenID Connect" } ] } ], "interests": [ { "name": "Technology",
+    "keywords": [ { "keyword": "Serverless, CRM, and ERP software" }, {
+    "keyword": "Javascript, Python, and Solidity" }, { "keyword": "Blockchain
+    and crypto" } ] } ] } -->
   </footer>
   <!-- ./ Footer -->
 </template>
@@ -114,7 +161,7 @@ img.icon {
 
 hgroup {
   img {
-    height: 267px;
+    height: auto;
     width: 645px;
   }
 }
