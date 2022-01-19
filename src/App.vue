@@ -1,7 +1,7 @@
 <template>
   <!-- Header -->
-  <div class="hero" data-theme="light">
-    <nav class="container-fluid">
+  <div class="hero">
+    <nav class="container-fluid" data-theme="light">
       <ul>
         <li>
           <img alt="selfie" src="./assets/selfie.png" class="selfie" />
@@ -149,6 +149,9 @@ export default {
   text-align: center;
 }
 
+nav {
+  background-color: rgb(255, 255, 255);
+}
 img.selfie {
   width: auto;
   height: 76px;
