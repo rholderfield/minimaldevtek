@@ -31,14 +31,19 @@
       </ul>
     </nav>
     <header class="container">
-      <hgroup>
-        <img
-          src="./assets/QmfBR6W5VnU6XPLUCDz8hRuUsK23KCpwry9e67Xwb1fN3S.png"
-        />
-      </hgroup>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqueet.</p>
+      <img src="./assets/yew.png" alt="tree" />
       <p>
-        <a href="#" role="button" onclick="event.preventDefault()"
+        A DAO created in Javascript. Features of the project include NFT
+        membership (ERC-1155), a token with airdrop distribution (ERC-20),
+        treasury, and governance. The frontend was designed with Picocss,
+        ReactJS, art created by me.
+      </p>
+      <p>
+        <a
+          href="https://plantatree.digitaldevtek.com/"
+          target="blank"
+          role="button"
+          onclick="event.preventDefault()"
           >View Project</a
         >
       </p>
@@ -51,7 +56,7 @@
     <div class="grid">
       <section>
         <div class="showcase">
-          <a href="https://blockpager.digitaldevtek.com/#/" target="_blank"
+          <a href="https://blockpager.digitaldevtek.com/" target="_blank"
             ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
           /></a>
           <div class="container">
@@ -165,7 +170,7 @@ img.icon {
 hgroup {
   img {
     height: auto;
-    width: 645px;
+    width: 200px;
   }
 }
 
