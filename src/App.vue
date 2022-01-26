@@ -36,14 +36,13 @@
         A DAO created in Javascript. Features of the project include NFT
         membership (ERC-1155), a token with airdrop distribution (ERC-20),
         treasury, and governance. The frontend was designed with Picocss,
-        ReactJS, art created by me.
+        ReactJS, pixel art created by me :)
       </p>
       <p>
         <a
           href="https://plantatree.digitaldevtek.com/"
-          target="blank"
+          target="_blank"
           role="button"
-          onclick="event.preventDefault()"
           >View Project</a
         >
       </p>
