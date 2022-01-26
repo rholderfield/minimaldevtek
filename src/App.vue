@@ -85,8 +85,7 @@
 
   <!-- Footer -->
   <footer class="container">
-    <!--
-    { "basics": { "name": "Ryan Holderfield", "label": "Escalations Engineer",
+    <!-- { "basics": { "name": "Ryan Holderfield", "label": "Escalations Engineer",
     "email": "raholderfield@gmail.com", "website":
     "https://www.digitaldevtek.com", "summary": "Escalation Engineer with
     interest in cloud computing", "location": { "countryCode": "US", "region":
@@ -135,7 +134,7 @@
     "keyword": "Javascript, Python, and Solidity" }, { "keyword": "Blockchain
     and crypto" } ] } ] } -->
   </footer>
-  <!-- ./ Footer -->
+
 </template>
 
 <script>
