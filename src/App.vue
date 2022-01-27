@@ -134,7 +134,6 @@
     "keyword": "Javascript, Python, and Solidity" }, { "keyword": "Blockchain
     and crypto" } ] } ] } -->
   </footer>
-
 </template>
 
 <script>
