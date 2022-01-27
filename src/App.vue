@@ -163,6 +163,10 @@ img.selfie {
   height: 76px;
 }
 
+header.container {
+  padding-top: 8px;
+}
+
 img.icon {
   width: 24px;
   height: 24px;
