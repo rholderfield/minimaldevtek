@@ -1,91 +1,92 @@
 <template>
-  <!-- Header -->
-  <div class="hero">
-    <nav class="container-fluid" data-theme="light">
-      <ul>
-        <li>
-          <img alt="selfie" src="./assets/selfie.png" class="selfie" />
-        </li>
-        <li><b>Hi, I'm Ryan</b></li>
-      </ul>
-      <ul>
-        <li>
+  <div>
+    <!-- Header -->
+    <div class="hero">
+      <nav class="container-fluid" data-theme="light">
+        <ul>
+          <li>
+            <img alt="selfie" src="./assets/selfie.png" class="selfie" />
+          </li>
+          <li><b>Hi, I'm Ryan</b></li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="https://devtekstorage.blob.core.windows.net/treasurechest/RyanHolderfield.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ryan-holderfield/"
+              target="_aboutblank"
+              ><img src=".\assets\linkedin.svg" alt="Linkedin" class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/rholderfield/" target="_aboutblank"
+              ><img src=".\assets\pinned-octocat.svg" alt="Github" class="icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <img src="./assets/yew.png" alt="tree" />
+        <p>
+          A DAO created in Javascript. Features of the project include NFT
+          membership (ERC-1155), a token with airdrop distribution (ERC-20),
+          treasury, and governance. The frontend was designed with Picocss,
+          ReactJS, pixel art created by me :)
+        </p>
+        <p>
           <a
-            href="https://devtekstorage.blob.core.windows.net/treasurechest/RyanHolderfield.pdf"
+            href="https://plantatree.digitaldevtek.com/"
             target="_blank"
-            >Resume</a
+            role="button"
+            >View Project</a
           >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/ryan-holderfield/"
-            target="_aboutblank"
-            ><img src=".\assets\linkedin.svg" alt="Linkedin" class="icon"
-          /></a>
-        </li>
-        <li>
-          <a href="https://github.com/rholderfield/" target="_aboutblank"
-            ><img src=".\assets\pinned-octocat.svg" alt="Github" class="icon"
-          /></a>
-        </li>
-      </ul>
-    </nav>
-    <header class="container">
-      <img src="./assets/yew.png" alt="tree" />
-      <p>
-        A DAO created in Javascript. Features of the project include NFT
-        membership (ERC-1155), a token with airdrop distribution (ERC-20),
-        treasury, and governance. The frontend was designed with Picocss,
-        ReactJS, pixel art created by me :)
-      </p>
-      <p>
-        <a
-          href="https://plantatree.digitaldevtek.com/"
-          target="_blank"
-          role="button"
-          >View Project</a
-        >
-      </p>
-    </header>
-  </div>
-  <!-- ./ Header -->
+        </p>
+      </header>
+    </div>
+    <!-- ./ Header -->
 
-  <!-- Main -->
-  <main class="container">
-    <div class="grid">
-      <section>
-        <div class="showcase">
-          <a href="https://blockpager.digitaldevtek.com/" target="_blank"
-            ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
-          /></a>
-          <div class="container">
-            <div class="description">
-              <p>
-                A project that used Solidity, Javascript, and Hardhat to deploy
-                a smart contract in the Rinkeby Test Network (Etherum
-                Blockchain). The Web3 client app was built using Vue and
-                Ethers.js, allowing interaction with the deployed smart
-                contract.
-              </p>
-            </div>
-            <div class="buttonContainer">
-              <a
-                href="https://blockpager.digitaldevtek.com/#/"
-                target="_blank"
-                role="button"
-                >View Project</a
-              >
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+        <section>
+          <div class="showcase">
+            <a href="https://blockpager.digitaldevtek.com/" target="_blank"
+              ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
+            /></a>
+            <div class="container">
+              <div class="description">
+                <p>
+                  A project that used Solidity, Javascript, and Hardhat to
+                  deploy a smart contract in the Rinkeby Test Network (Etherum
+                  Blockchain). The Web3 client app was built using Vue and
+                  Ethers.js, allowing interaction with the deployed smart
+                  contract.
+                </p>
+              </div>
+              <div class="buttonContainer">
+                <a
+                  href="https://blockpager.digitaldevtek.com/#/"
+                  target="_blank"
+                  role="button"
+                  >View Project</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <!-- ./ Main -->
+        </section>
+      </div>
+    </main>
+    <!-- ./ Main -->
 
-  <!-- Footer -->
-  <footer class="container">
-    <!-- { "basics": { "name": "Ryan Holderfield", "label": "Escalations Engineer",
+    <!-- Footer -->
+    <footer class="container">
+      <!-- { "basics": { "name": "Ryan Holderfield", "label": "Escalations Engineer",
     "email": "raholderfield@gmail.com", "website":
     "https://www.digitaldevtek.com", "summary": "Escalation Engineer with
     interest in cloud computing", "location": { "countryCode": "US", "region":
@@ -133,7 +134,8 @@
     "keywords": [ { "keyword": "Serverless, CRM, and ERP software" }, {
     "keyword": "Javascript, Python, and Solidity" }, { "keyword": "Blockchain
     and crypto" } ] } ] } -->
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <script>
