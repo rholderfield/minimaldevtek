@@ -32,7 +32,7 @@
         </ul>
       </nav>
       <header class="container">
-        <img src="./assets/yew.png" alt="tree" />
+        <img class="yew" src="./assets/yew.png" alt="tree" />
         <p>
           A DAO created in Javascript. Features of the project include NFT
           membership (ERC-1155), a token with airdrop distribution (ERC-20),
@@ -55,30 +55,32 @@
     <main class="container">
       <div class="grid">
         <section>
-          <div class="showcase">
-            <a href="https://blockpager.digitaldevtek.com/" target="_blank"
-              ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
-            /></a>
-            <div class="container">
-              <div class="description">
-                <p>
-                  A project that used Solidity, Javascript, and Hardhat to
-                  deploy a smart contract in the Rinkeby Test Network (Etherum
-                  Blockchain). The Web3 client app was built using Vue and
-                  Ethers.js, allowing interaction with the deployed smart
-                  contract.
-                </p>
-              </div>
-              <div class="buttonContainer">
-                <a
-                  href="https://blockpager.digitaldevtek.com/#/"
-                  target="_blank"
-                  role="button"
-                  >View Project</a
-                >
+          <article>
+            <div class="showcase">
+              <a href="https://blockpager.digitaldevtek.com/" target="_blank"
+                ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
+              /></a>
+              <div class="container">
+                <div class="description">
+                  <p>
+                    A project that used Solidity, Javascript, and Hardhat to
+                    deploy a smart contract in the Rinkeby Test Network (Etherum
+                    Blockchain). The Web3 client app was built using Vue and
+                    Ethers.js, allowing interaction with the deployed smart
+                    contract.
+                  </p>
+                </div>
+                <div class="buttonContainer">
+                  <a
+                    href="https://blockpager.digitaldevtek.com/#/"
+                    target="_blank"
+                    role="button"
+                    >View Project</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
+          </article>
         </section>
       </div>
     </main>
@@ -166,15 +168,9 @@ img.icon {
   height: 24px;
 }
 
-hgroup {
-  img {
-    height: auto;
-    width: 200px;
-  }
-}
-
-main {
-  padding-top: 28px;
+img.yew {
+  height: auto;
+  width: 200px;
 }
 
 div.showcase {
