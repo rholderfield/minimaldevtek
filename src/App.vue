@@ -32,21 +32,32 @@
         </ul>
       </nav>
       <header class="container">
-        <img class="yew" src="./assets/yew.png" alt="tree" />
-        <p>
-          A DAO created in Javascript. Features of the project include NFT
-          membership (ERC-1155), a token with airdrop distribution (ERC-20),
-          treasury, and governance. The frontend was designed with Picocss,
-          ReactJS, pixel art created by me :)
-        </p>
-        <p>
-          <a
-            href="https://plantatree.digitaldevtek.com/"
-            target="_blank"
-            role="button"
-            >View Project</a
-          >
-        </p>
+        <img
+          class="headerlogo"
+          src="./assets/pixlogo.193d524b.png"
+          alt="invblock logo"
+        />
+        <div class="showcase">
+          <div class="description">
+            <p>
+              A simple inventory control system created on the Ethereum Rinkeby
+              Test Network for individuals or businesses who wish to use a
+              public ledger to store inventory purchase and sale history. The
+              project features include smart contract transaction creation and
+              data retrieval. The project uses Solidity, Vue, Moralis, Ethers,
+              and Ant Deseign System. Please see Github for full dependency
+              list.
+            </p>
+          </div>
+          <div class="buttonContainer">
+            <a
+              href="https://invblock.digitaldevtek.com/"
+              target="_blank"
+              role="button"
+              >View Project</a
+            >
+          </div>
+        </div>
       </header>
     </div>
     <!-- ./ Header -->
@@ -57,6 +68,32 @@
         <section>
           <article>
             <div class="showcase">
+              <a href="https://plantatree.digitaldevtek.com/" target="_blank"
+                ><img src="./assets/yew.png" alt="tree"
+              /></a>
+              <div class="container">
+                <div class="description">
+                  <p>
+                    A DAO created in Javascript. Features of the project include
+                    NFT membership (ERC-1155), a token with airdrop distribution
+                    (ERC-20), treasury, and governance. The frontend was
+                    designed with Picocss, ReactJS, pixel art created by me :)
+                  </p>
+                </div>
+                <div class="buttonContainer">
+                  <a
+                    href="https://plantatree.digitaldevtek.com/"
+                    target="_blank"
+                    role="button"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="showcase">
               <a href="https://blockpager.digitaldevtek.com/" target="_blank"
                 ><img src="./assets/blockpager.png" alt="buildspace web3 nft"
               /></a>
@@ -64,15 +101,15 @@
                 <div class="description">
                   <p>
                     A project that used Solidity, Javascript, and Hardhat to
-                    deploy a smart contract in the Rinkeby Test Network (Etherum
-                    Blockchain). The Web3 client app was built using Vue and
-                    Ethers.js, allowing interaction with the deployed smart
-                    contract.
+                    deploy a smart contract in the Rinkeby Test Network
+                    (Ethereum Blockchain). The Web3 client app was built using
+                    Vue and Ethers.js, allowing interaction with the deployed
+                    smart contract.
                   </p>
                 </div>
                 <div class="buttonContainer">
                   <a
-                    href="https://blockpager.digitaldevtek.com/#/"
+                    href="https://blockpager.digitaldevtek.com"
                     target="_blank"
                     role="button"
                     >View Project</a
@@ -164,7 +201,8 @@ img.selfie {
 }
 
 header.container {
-  padding-top: 8px;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 img.icon {
@@ -172,26 +210,35 @@ img.icon {
   height: 24px;
 }
 
-img.yew {
+img.headerlogo {
+  padding: 1em;
   height: auto;
   width: 200px;
 }
 
+article {
+  margin: 0.5em !important;
+  padding: 1em !important;
+}
 div.showcase {
   display: flex;
   background-color: transparent;
   align-items: center;
 
   img {
-    border-radius: 8px;
+    border-radius: 1em;
     height: auto;
     width: 160px;
   }
 
   p {
-    margin: 0px;
-    padding-left: 24px;
+    margin: 0;
+    padding-left: 2em;
     text-align: justify;
+  }
+
+  .description {
+    padding: 1em;
   }
 
   .buttonContainer {
